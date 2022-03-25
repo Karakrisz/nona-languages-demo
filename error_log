@@ -1,0 +1,43 @@
+[04-Oct-2020 13:52:50 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nonalang/public_html/core/config.php on line 10
+[04-Oct-2020 13:52:50 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 12
+[04-Oct-2020 14:09:20 Europe/Budapest] PHP Notice:  Only variables should be passed by reference in /home/nonalang/public_html/core/functions.php on line 94
+[04-Oct-2020 16:01:10 Europe/Budapest] PHP Notice:  Only variables should be passed by reference in /home/nonalang/public_html/core/functions.php on line 94
+[04-Oct-2020 16:02:12 Europe/Budapest] PHP Notice:  Only variables should be passed by reference in /home/nonalang/public_html/core/functions.php on line 94
+[04-Oct-2020 16:11:14 Europe/Budapest] PHP Notice:  Only variables should be passed by reference in /home/nonalang/public_html/core/functions.php on line 94
+[04-Oct-2020 16:16:05 Europe/Budapest] PHP Notice:  Only variables should be passed by reference in /home/nonalang/public_html/core/functions.php on line 94
+[18-Jun-2021 11:27:03 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[18-Jun-2021 11:27:03 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:12 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:12 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:13 Europe/Budapest] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:13 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:14 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:14 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:14 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:14 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:14 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:14 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:15 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:15 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:15 Europe/Budapest] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:15 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:41 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:41 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/nonalang/public_html/core/config.php on line 17
+[25-Jun-2021 12:23:42 Europe/Budapest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nonalang/public_html/core/config.php on line 19
+[31-Aug-2021 07:30:14 Europe/Budapest] PHP Notice:  Undefined index: password in /home/nonalang/public_html/core/controllers.php on line 86
+[31-Aug-2021 07:30:14 Europe/Budapest] PHP Notice:  Undefined index: email in /home/nonalang/public_html/core/controllers.php on line 87
+[31-Aug-2021 07:30:15 Europe/Budapest] PHP Notice:  Undefined index: register_email in /home/nonalang/public_html/core/controllers.php on line 74
+[31-Aug-2021 07:30:15 Europe/Budapest] PHP Notice:  Undefined index: register_password in /home/nonalang/public_html/core/controllers.php on line 75
+[31-Aug-2021 07:30:17 Europe/Budapest] PHP Notice:  Undefined index: event in /home/nonalang/public_html/core/controllers.php on line 33
+[31-Aug-2021 07:30:18 Europe/Budapest] PHP Notice:  Undefined index: event in /home/nonalang/public_html/core/controllers.php on line 53
+[09-Nov-2021 14:10:26 Europe/Budapest] PHP Notice:  Only variables should be passed by reference in /home/nonalang/public_html/core/functions.php on line 107
+[09-Nov-2021 14:10:41 Europe/Budapest] PHP Notice:  Undefined index: title in /home/nonalang/public_html/core/controllers.php on line 182
+[09-Nov-2021 14:10:54 Europe/Budapest] PHP Notice:  Undefined index: title in /home/nonalang/public_html/core/controllers.php on line 182
+[09-Nov-2021 14:12:53 Europe/Budapest] PHP Notice:  Undefined index: title in /home/nonalang/public_html/core/controllers.php on line 182

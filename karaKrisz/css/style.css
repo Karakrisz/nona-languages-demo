@@ -1,0 +1,295 @@
+/******************** own formating start **********************/
+
+.btn {
+    transition: ease 1s !important;
+}
+
+.audio-box {
+    display: none;
+}
+
+
+/******************** left navbar formating start **********************/
+
+.side_nav_scroll {
+    overflow-y: scroll;
+}
+
+
+/******************** navbar formating start **********************/
+
+.navbar-brand__logo-img {
+    width: 200px;
+    height: 200px;
+}
+
+.navbar.navbar-light.bg-light.cursor-light {
+    padding: 0;
+}
+
+.user-login-data {
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+}
+
+.user-login-data__p__i {
+    color: #f73859;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 5px 0 0;
+}
+
+.user-login-data__link {
+    background: #f73859;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+/********************  Portfolio content formating start **********************/
+
+.info img {
+    height: 160px;
+    object-fit: cover;
+}
+
+.hover1 .title {
+    padding-top: 28% !important;
+    font-size: 14px;
+}
+
+
+/******************** modal formating start **********************/
+
+.request-box {
+    display: none;
+}
+
+
+/******************** timetable formating start **********************/
+
+.day-content__div {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+timetable-content .container {
+    margin-top: 20px;
+}
+
+.day-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.day-content {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.day-footer {
+    border-top: 1px solid;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: darken(red, 20%);
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    padding: 5px;
+    box-shadow: 0px 1px 15px 1px rgba(81, 77, 92, 0.08);
+}
+
+.title {
+    font-size: 12px;
+}
+
+.event__footer {
+    font-size: 13px;
+}
+
+.day-header {
+    text-align: center;
+    padding: 5px;
+    color: #f73859;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.day-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 400px;
+    min-width: 160px;
+    border-left: none;
+}
+
+
+/******************** recording dates content start **********************/
+
+.recording-dates-content h2 {
+    background-color: #f73859;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 40px 0 60px 0;
+}
+
+.recording-dates-content label {
+    font-family: "Josefin Sans", sans-serif;
+    color: #2B4162;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.form-group input {
+    top: 0;
+    height: 65px;
+    width: 100%;
+    padding: 0 53px;
+    box-sizing: border-box;
+    z-index: 3;
+    color: #1a6fc4;
+    font-size: 17px;
+    transition: top 0.1s ease-in-out;
+    margin-top: 30px;
+}
+
+.form-group input::placeholder {
+    color: rgba(0, 0, 0, 0);
+}
+
+.recording-dates-content-ul {
+    border: 0;
+    border-bottom: 1px solid #2B4162;
+}
+
+.recording-dates-content-ul>li>a {
+    background-color: #f73859;
+    color: #fff;
+    text-decoration-line: none;
+    position: relative;
+    display: block;
+    padding: 20px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.recording-dates-content-ul>li>a:hover {
+    background-color: white;
+    color: #f73859;
+    border: 1px solid #f73859;
+    border-bottom: 0;
+}
+
+.recording-dates-content-ul>li>a:focus {
+    background-color: white;
+    color: #f73859;
+    border: 1px solid #f73859;
+    border-bottom: 0;
+}
+
+.tab-content {
+    text-align: center;
+}
+
+.recording-dates-content .tab-content {
+    padding: 10px 200px;
+}
+
+.modal-header {
+    background-color: #f73859;
+    color: white;
+}
+
+.recording-dates-content__btn {
+    background: #2E2D4D;
+    color: white;
+    padding: 10px 50px;
+    margin: 10px 0 20px 0;
+}
+
+.recording-dates-content__btn:hover {
+    background: white;
+    border: 1px solid #2E2D4D;
+    color: #2E2D4D;
+}
+
+
+/******************** Admin login content start **********************/
+
+.admin-user-login-data {
+    position: absolute;
+    left: 130px;
+    width: 300px;
+}
+
+.admin-user-login-data__p {
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 13px;
+}
+
+
+/******************** Media Queries start **********************/
+
+@media screen and (max-width: 767px) {
+    .broad .brand-logo {
+        margin-top: 0 !important;
+    }
+    .broad.broad-nav {
+        overflow-y: scroll;
+    }
+    .navbar-brand.ml-auto.mr-auto {
+        margin: 0 !important;
+    }
+    .navbar-brand__logo-img {
+        width: 130px;
+        height: 130px;
+        position: relative;
+        float: right;
+    }
+    .my_nav_tog.d-block.d-md-none {
+        position: relative;
+        left: 20px;
+        top: 5px;
+    }
+    .my_nav_tog span {
+        height: 4px;
+        width: 35px;
+    }
+    .side-nav-menu .nav-menu {
+        padding-left: 0 !important;
+    }
+    .tab-content {
+        padding: 0;
+    }
+    .modal-dialog.cascading-modal .modal-c-tabs .md-tabs li a {
+        margin: 0 !important;
+    }
+    .nav.nav-tabs.md-tabs.tabs-2.light-blue.darken-3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-tabs .nav-item {
+        padding: 0 10px;
+    }
+}

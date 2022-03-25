@@ -1,7 +1,10 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
 /* ===================================
                 About
    =================================== */
+
 
 /*
     Theme Name: Portfolio
@@ -13,9 +16,11 @@
 
  */
 
+
 /* ===================================
           Table of Contents
    =================================== */
+
 
 /*
 01 body
@@ -35,10 +40,10 @@
 
 /*Global Styling*/
 
+
 /*IMPORT GOOGLE FONT */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800|Roboto:400,500,700|Raleway:400&display=swap');
-
 html {
     scroll-behavior: smooth;
 }
@@ -53,7 +58,7 @@ html {
     font-size: 12px;
     color: #28a745;
     margin: 0 !important;
-    padding: 3px !important;
+    padding: 13px !important;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -61,8 +66,9 @@ html {
     font-size: 12px;
     color: #DC3545;
     margin: 0 !important;
-    padding: 3px !important;
+    padding: 13px !important;
     font-family: 'Montserrat', sans-serif;
+    margin: 30px 0 !important;
 }
 
 .user-danger {
@@ -73,9 +79,15 @@ html {
     border-color: #ced4da !important;
 }
 
+
 /*================================*/
+
+
 /*==============buttons===========*/
+
+
 /*================================*/
+
 .sub-heading {
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -121,7 +133,6 @@ html {
 .our-btn:hover {
     background-color: white;
     color: #f73859;
-
 }
 
 .our-btn:hover a {
@@ -147,7 +158,6 @@ html {
 .our-t-btn:hover {
     background-color: transparent;
     color: #f73859;
-
 }
 
 .our-black-btn {
@@ -164,7 +174,6 @@ html {
 .our-black-btn:hover {
     background-color: transparent;
     color: black;
-
 }
 
 .rites-res {
@@ -178,6 +187,7 @@ html {
 .text-onblue-bg {
     color: white !important;
 }
+
 
 /* ===================================
     Cursor
@@ -208,9 +218,15 @@ html {
     display: inline-block;
 }
 
+
 /*.cursor-light:hover .slider-social ~ .for-magic #aimated-cursor{*/
+
+
 /*    display: inline-block;*/
+
+
 /*}*/
+
 .cursor {
     position: fixed;
     transform: translate(-50%, -50%);
@@ -223,6 +239,7 @@ html {
     box-sizing: border-box;
 }
 
+
 /*slider social*/
 
 .slider-social {
@@ -232,9 +249,15 @@ html {
     z-index: 111;
 }
 
+
 /*.my-slide{*/
+
+
 /*    right: 15px !important;*/
+
+
 /*}*/
+
 .side-nav-menu .slider-social {
     right: auto;
 }
@@ -261,13 +284,13 @@ html {
 }
 
 
-
 /* magic cursor css end*/
 
 
 /* ===================================
     body and Scrollbar
 ====================================== */
+
 .body-overlay {
     opacity: .4;
 }
@@ -276,7 +299,9 @@ html {
     overflow: hidden;
 }
 
+
 /*scroll bar*/
+
 ::-webkit-scrollbar {
     width: 18px;
 }
@@ -295,11 +320,14 @@ html {
     border-right: 6px solid white;
 }
 
+
 /*scroll bar end*/
+
 
 /* ===================================
     sidebar toggle btn
 ====================================== */
+
 .my_tog {
     padding: 20px;
     margin-top: 20px;
@@ -330,9 +358,11 @@ html {
     margin-left: auto;
 }
 
+
 /* ===================================
     SideNav
 ====================================== */
+
 .side_nav {
     display: block;
     background-color: white;
@@ -415,8 +445,6 @@ html {
     top: 7px;
     padding: 0;
     text-align: left;
-
-
 }
 
 .side-nav-menu .nav-menu li a span,
@@ -445,7 +473,6 @@ html {
     from {
         transform: translateX(-100px);
     }
-
     to {
         left: 0;
     }
@@ -491,7 +518,9 @@ html {
     color: #f73859;
 }
 
+
 /*broad nav*/
+
 .side-nav-menu .side-icons ul {
     padding-top: 0 !important;
     padding-left: 21px !important;
@@ -508,10 +537,14 @@ html {
     color: #000000;
 }
 
+
 /* ===================================
     Body Sec
 ====================================== */
+
+
 /*body css start*/
+
 .wrap_container {
     width: 100% !important;
 }
@@ -546,10 +579,14 @@ html {
     cursor: pointer;
 }
 
+
 /* ===================================
     Navbar css
 ====================================== */
+
+
 /*//navbar css*/
+
 .navbar {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -561,7 +598,6 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 30px;
-
 }
 
 .navbar-brand span {
@@ -611,9 +647,11 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
+
 /* ===================================
     Broad Naybar css
 ====================================== */
+
 .broad {
     visibility: hidden;
     transition: 1s ease-in-out;
@@ -642,8 +680,6 @@ html {
 
 .broad-nav .side-nav-menu {
     display: block;
-
-
 }
 
 .broad-nav .side-nav-menu ul {
@@ -659,9 +695,6 @@ html {
     border-radius: 50%;
     position: relative;
 }
-
-
-
 
 .broad-nav .side-nav-menu .nav-menu li a span,
 .broad .side-nav-menu ul li a span {
@@ -689,7 +722,6 @@ html {
     from {
         transform: translateX(-100px);
     }
-
     to {
         left: 0;
     }
@@ -729,7 +761,6 @@ html {
 }
 
 .broad .side-nav-menu ul li {
-
     transition: all 2s ease 500ms;
     animation-duration: 1s;
 }
@@ -739,7 +770,6 @@ html {
         transform: translateX(-100px);
         opacity: 0;
     }
-
     to {
         transform: translateX(0px);
         opacity: 1;
@@ -756,7 +786,6 @@ html {
     animation-name: myan;
     animation-delay: .3s;
     animation-fill-mode: both;
-
 }
 
 .broad .side-nav-menu ul li:nth-child(3) {
@@ -783,7 +812,9 @@ html {
     animation-fill-mode: both;
 }
 
+
 /*side clode btn*/
+
 .broad .btn-close {
     height: 33px;
     width: 33px;
@@ -864,10 +895,14 @@ html {
     margin-bottom: 5px;
 }
 
+
 /* ===================================
     Expand Navbar & body Shrink
 ====================================== */
+
+
 /*expand navbar*/
+
 .expand_nav {
     left: 0;
 }
@@ -879,7 +914,6 @@ html {
 
 .close_nav {
     padding-top: 25px;
-
 }
 
 .close_nav:hover {
@@ -914,6 +948,7 @@ html {
 /* ===================================
     Portfolio Animation and hover effect
 ====================================== */
+
 .hover1 {
     font-family: 'Montserrat', sans-serif;
     ;
@@ -1096,11 +1131,14 @@ html {
     display: inline-block;
 }
 
+
 /*************************Morphing Model Window***************************/
+
 
 /* ===================================
     Modal window css
 ====================================== */
+
 .modal-window {
     display: none;
 }
@@ -1128,7 +1166,6 @@ html {
     display: block;
     animation: .8s fadeIn;
     margin-bottom: 25px;
-    box-shadow: 1px 1px 15px #d1d1d1;
 }
 
 .morphic-title {
@@ -1143,7 +1180,6 @@ html {
     font-size: 28px;
     font-weight: 600;
     color: #f73859;
-
 }
 
 .morphic-title p {
@@ -1291,7 +1327,6 @@ html {
 }
 
 .carousel-indicators {
-
     margin-bottom: 2% !important;
 }
 
@@ -1301,11 +1336,14 @@ html {
     border-radius: 50%;
 }
 
+
 /*************************Morphing Model Window end***************************/
+
 
 /* ===================================
     Services section css
 ====================================== */
+
 .services-sec {
     padding-top: 115px;
     padding-bottom: 90px;
@@ -1350,7 +1388,6 @@ html {
     padding-top: 70px;
     overflow: hidden;
     padding-bottom: 10px;
-
 }
 
 .services-sec .our-services .service-card {
@@ -1367,7 +1404,6 @@ html {
     font-size: 50px;
     font-weight: 300;
     transition: .8s ease;
-
 }
 
 .services-sec .our-services .service-card .service-card-heading {
@@ -1394,7 +1430,6 @@ html {
     border-radius: 20px;
     box-shadow: 0 0 15px #e1e1e1;
     cursor: pointer;
-
 }
 
 .services-sec .our-services .service-card:hover .service-card-heading {
@@ -1409,6 +1444,7 @@ html {
 /* ===================================
     Skill sec strat
 ====================================== */
+
 .skill-sec {
     overflow: hidden;
 }
@@ -1466,7 +1502,6 @@ html {
 .skill-sec .skill-detail .skill-bars .progress-item .progress-bar {
     background: linear-gradient(30deg, #6d599e 20%, #a9717a 60%, #dd865b 100%) !important;
     position: relative;
-
 }
 
 .progress-item .progress-bar span {
@@ -1517,15 +1552,12 @@ html {
     -o-transition-duration: 1.3s;
     transition-duration: 1.3s;
     /*border-radius: 10%;*/
-
-
 }
 
 .skill-sec .hover-effect::before {
     right: 0;
     opacity: 1;
     top: 0;
-
 }
 
 .skill-sec .hover-effect::after {
@@ -1541,9 +1573,11 @@ html {
     width: 100%;
 }
 
+
 /* ===================================
     Qoute sec
 ====================================== */
+
 .qoute-sec {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1585,9 +1619,11 @@ html {
     bottom: 10%;
 }
 
+
 /* ===================================
     Project section css
 ====================================== */
+
 .project-sec {
     position: relative;
 }
@@ -1610,7 +1646,6 @@ html {
     top: 50%;
     transform: translateY(-50%);
     color: white;
-
 }
 
 .project-sec .project-area .project-detail .project-sub-heading {
@@ -1681,21 +1716,37 @@ html {
     animation: 1.5s slideInDown;
 }
 
+
 /*@keyframes slideLeft {*/
+
+
 /*    from{*/
+
+
 /*        margin-left: 0;*/
+
+
 /*    }*/
+
+
 /*    to{*/
+
+
 /*        margin-left: 99.906px;*/
+
+
 /*    }*/
+
+
 /*}*/
+
 .color-black {
     color: black !important;
 }
 
 .bg-black {
     background-color: black;
-     !important;
+    !important;
 }
 
 .color-white {
@@ -1868,7 +1919,6 @@ html {
     background-color: #f73859;
     border: solid 1px #f73859;
     color: white;
-
 }
 
 .pricing-sec .pricing-card.active:nth-child(2) .pricing-btn:hover {
@@ -1902,7 +1952,6 @@ html {
     background-color: #f73859;
     border: solid 1px #f73859;
     color: white;
-
 }
 
 .pricing-sec .pricing-card:hover .pricing-btn:hover {
@@ -1914,6 +1963,7 @@ html {
 /* ===================================
     client css
 ====================================== */
+
 .client-sec {
     /*background: url("../../portfolio/img/clients-banner.jpg");*/
     background: url("../../portfolio/img/clients-banner.jpg");
@@ -2048,113 +2098,298 @@ a:hover i.fa-instagram {
     -webkit-text-fill-color: transparent;
 }
 
+
 /* ===================================
     clients css
 ====================================== */
+
+
 /*.clients-sec{*/
+
+
 /*    background-image: url("../img/clients-banner.jpg");*/
+
+
 /*    min-height: 300px;*/
+
+
 /*    position: relative;*/
+
+
 /*}*/
+
+
 /*.clients-sec img{*/
+
+
 /*    height: 100%;*/
+
+
 /*    width: 100%;*/
+
+
 /*}*/
+
+
 /*.clients-sec .container-overlay{*/
+
+
 /*    background-color: rgba(247, 56, 89, 0.90);*/
+
+
 /*    min-height: 150px;*/
+
+
 /*    width: 100%;*/
+
+
 /*    padding: 30px;*/
+
+
 /*    padding-bottom: 100px;*/
+
+
 /*}*/
+
+
 /*.clients-sec .container-overlay2{*/
+
+
 /*    min-height: 150px;*/
+
+
 /*    width: 100%;*/
+
+
 /*    padding: 100px;*/
+
+
 /*    !*padding-top: 0;*!*/
+
+
 /*    position: relative;*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-img-holder{*/
+
+
 /*    height: 160px;*/
+
+
 /*    width: 160px;*/
+
+
 /*    background-color: #e1e1e1;*/
+
+
 /*    margin-left: auto;*/
+
+
 /*    margin-right: auto;*/
+
+
 /*    display: inline-block;*/
+
+
 /*    position: absolute;*/
+
+
 /*    top: 50%;*/
+
+
 /*    left: 50%;*/
+
+
 /*    transform: translate(-50%, -138%);*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-comment .client-symbol-qoute {*/
+
+
 /*    padding-bottom: 30px;*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-comment .client-symbol-qoute i{*/
+
+
 /*    color: white;*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-comment .client-text{*/
+
+
 /*    font-size: 14px;*/
+
+
 /*    color: white;*/
+
+
 /*    font-family: 'Montserrat', sans-serif;*/
+
+
 /*    font-weight: 300;*/
+
+
 /*}*/
+
 
 /*.clients-sec .client-details .client-name{*/
+
+
 /*    font-size: 20px;*/
+
+
 /*    font-family: 'Montserrat', sans-serif;*/
+
+
 /*    font-weight: 600;*/
+
+
 /*    color: #f73859;*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-details .client-des{*/
+
+
 /*    font-family: 'Montserrat', sans-serif;*/
+
+
 /*    font-weight: 400;*/
+
+
 /*    font-size: 15px;*/
+
+
 /*    margin-bottom: 8px;*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-details .client-s-media{*/
+
+
 /*    padding-left: 0;*/
+
+
 /*    left: calc(50% - 45%);*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-details .client-s-media li{*/
+
+
 /*    list-style: none;*/
+
+
 /*    display: inline-block;*/
+
+
 /*    margin-right: 5px;*/
+
+
 /*}*/
+
+
 /*.clients-sec .client-details .client-s-media li a{*/
+
+
 /*    color: black;*/
+
+
 /*    font-size: 16px;*/
+
+
 /*}*/
+
+
 /*a:hover i.fa-facebook-f{*/
+
+
 /*    color: #3B579D;*/
+
+
 /*}*/
+
+
 /*a:hover i.fa-twitter{*/
+
+
 /*    color: #2CAAE1;*/
+
+
 /*}*/
+
+
 /*a:hover i.fa-linkedin-in{*/
+
+
 /*    color: #007BB6;*/
+
+
 /*}*/
+
+
 /*a:hover i.fa-google-plus-g{*/
+
+
 /*    color: red;*/
+
+
 /*}*/
+
+
 /*a:hover i.fa-instagram{*/
+
+
 /*    background: #d6249f;*/
+
+
 /*    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
+
+
 /*    -webkit-background-clip: text;*/
+
+
 /*    -webkit-text-fill-color: transparent;*/
+
+
 /*}*/
 
 
 /*-------------------------------*/
+
+
 /* Testminials slider */
-/*-------------------------------*/
-
-
 
 
 /*-------------------------------*/
+
+
+/*-------------------------------*/
+
+
 /* Testminials ends */
-/*-------------------------------*/
 
+
+/*-------------------------------*/
 
 
 /* ===================================
@@ -2177,7 +2412,6 @@ a:hover i.fa-instagram {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
-
 }
 
 .contact-us-sec .contact-details .contact-heading {
@@ -2254,17 +2488,39 @@ a:hover i.fa-instagram {
     width: 100%;
 }
 
+
 /*.contact-us-sec .contact-details .contact-s-media li a:hover i{*/
+
+
 /*    animation: 1s rotate;*/
+
+
 /*}*/
+
+
 /*@keyframes rotate {*/
+
+
 /*    from{*/
+
+
 /*        transform: rotate(0deg);*/
+
+
 /*    }*/
+
+
 /*    to{*/
+
+
 /*        transform: rotate(360deg);*/
+
+
 /*    }*/
+
+
 /*}*/
+
 .contact-us-sec .contact-details .contact-s-media li a:hover i.fa-facebook-f {
     color: #3B579D;
 }
@@ -2287,6 +2543,7 @@ a:hover i.fa-instagram {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 /* ===================================
     Blog detail page css start
@@ -2318,7 +2575,6 @@ a:hover i.fa-instagram {
     font-size: 40px;
     font-weight: bold;
     color: #ffffff;
-
 }
 
 .slider-sec .slider-content p {
@@ -2327,12 +2583,16 @@ a:hover i.fa-instagram {
     color: #ffffff;
 }
 
+
 /* ===================================
     Blog detail page css end
 ====================================== */
+
+
 /* ===================================
    Contact us page css start
 ====================================== */
+
 .contact-us-form .my-form {
     position: relative;
 }
@@ -2380,9 +2640,12 @@ a:hover i.fa-instagram {
     margin-bottom: 0 !important;
 }
 
+
 /* ===================================
    Contact us page css end
 ====================================== */
+
+
 /* ===================================
     Media Queries
 ====================================== */
@@ -2391,387 +2654,311 @@ a:hover i.fa-instagram {
     .modal-body {
         max-width: 308px !important;
     }
-
     .pricing-sec .pricing-card .pricing-amount i {
         left: 21%;
     }
-
     .contact-us-sec .contact-details .contact-s-media {
         left: calc(50% - 34%) !important;
     }
-
 }
 
 @media (max-width: 575.98px) {
     .close-modal i {
         width: 23px;
     }
-
     .navbar-brand {
         padding-left: 0;
     }
-
     header .navbar .slider-social ul li a {
         padding-top: 10px;
         margin-left: auto;
         margin-right: auto;
     }
-
     header .navbar {
         padding-bottom: 20px;
     }
-
     .side_nav {
         width: 0;
         display: none;
     }
-
     .body_wrapper {
         margin-left: 0;
         width: 100%;
     }
-
     .social-icons span i {
         margin-left: 5px;
     }
-
     .social-icons span:last-child i {
         margin-right: 20px;
     }
-
     .my-item {
         width: 187px !important;
     }
-
     .hover2 a.info {
         top: -20%;
         padding: 55px;
         padding-left: 55px;
         color: white;
     }
-
     .hover1 .title {
         font-size: 16px;
     }
-
     .hover1 .post {
         margin-left: 26px;
     }
-
     .hover1 .box-content {
         left: 3%;
     }
-
     .box15 .title {
         font-size: 18px;
     }
-
     .close-modal {
         right: 4px;
         top: 4px;
     }
-
     .morphic-title {
         margin-left: 0;
     }
-
     .modal-body {
         margin-top: 31px;
         max-width: 398px;
     }
-
     .morphic-title h3 {
         font-size: 23px;
     }
-
     .morphic-title p {
         font-size: 14px;
     }
-
     .morphic-detail h4 {
         font-size: 14px;
     }
-
     .morphic-detail p {
         font-size: 13px;
     }
-
     .left-arrow-sec a,
     .right-arrow-sec a {
         margin-left: -7px;
         border: solid 1px transparent;
         height: auto;
         width: auto;
-
     }
-
     .launch-btn .l-btn {
         font-size: 12px;
         padding: 8px 20px 8px 20px;
     }
-
     /*services*/
     .services-sec {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .services-sec .services-details .sub-heading {
         margin-bottom: 20px;
     }
-
     .services-sec .services-details .heading {
         padding-left: 0;
         padding-right: 0;
         margin-bottom: 20px;
     }
-
     .services-sec .our-services .service-card {
         margin-bottom: 20px;
     }
-
     .services-sec .our-services>div:last-child .service-card {
         margin-bottom: 0;
     }
-
     /*skill*/
     .skill-sec .skill-detail {
         /*padding-top: 30px;*/
         padding-bottom: 65px;
     }
-
     .skill-sec .skill-banner {
         padding-left: 0;
     }
-
     .skill-sec .skill-detail .sub-heading span {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
     }
-
     /*qoute*/
     .qoute-sec .qoute {
         font-size: 24px;
         width: 75%;
     }
-
     .qoute-sec i.fa-quote-left {
         font-size: 20px;
         top: -30px;
         left: 6%;
     }
-
     .qoute-sec i.fa-quote-right {
         font-size: 20px;
         right: 5%;
         bottom: -8%;
     }
-
     /*projects*/
     .project-sec .project-area .project-detail .project-sub-heading {
         margin-bottom: 20px;
     }
-
     .project-sec .project-area .project-detail {
         position: relative;
         transform: translateY(0%);
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .project-sec .project-area .project-detail .project-heading {
         color: black;
         font-size: 24px;
         margin-bottom: 20px;
     }
-
     .project-sec .project-links {
         bottom: auto;
         left: 8%;
         top: 11%;
     }
-
     .project-sec .project-area .project-detail .project-sub-heading span {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
     }
-
     /*pricing cards*/
-
     .pricing-sec .price-cards {
         padding-left: 15px;
         padding-right: 15px;
     }
-
     .pricing-sec .pricing-details .pricing-sub-heading {
         margin-bottom: 20px;
     }
-
     .pricing-sec .pricing-details .pricing-heading {
         width: 100%;
         margin-bottom: 20px;
     }
-
     .pricing-sec {
         padding-top: 50px;
         padding-bottom: 0;
     }
-
     .pricing-sec .pricing-details {
         margin-bottom: 0;
     }
-
     /*clients*/
     .client-sec .client-container {
         padding-bottom: 483px;
     }
-
     /*contact*/
     .contact-us-sec {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     #map {
         height: 400px;
     }
-
     .client-sec .client-container .client-detail .client-s-media {
         left: calc(50% - 35%);
     }
-
     .contact-us-sec .contact-details .contact-s-media {
         left: calc(50% - 30.5%);
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-fade {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-box {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-roll {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-in {
         animation: none;
     }
-
     .client-sec .client-container .client-detail {
         top: 67%;
     }
-
     .slider-sec {
         min-height: 200px;
         background: transparent;
     }
-
     .services-sec .our-services .service-card .image-holder {
         margin-bottom: 17px;
     }
-
     .text-onblue-bg {
         color: #cccccc !important;
     }
 }
 
+
 /*// Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) and (max-width: 767.98px) {
     .navbar {
         margin-bottom: 0;
     }
-
     .side_nav {
         width: 0;
         display: none;
     }
-
     .body_wrapper {
         margin-left: 0;
         width: 100%;
     }
-
     .side-nav-menu ul li a span {
         /*font-size: 12px;*/
         margin-left: 10px;
         margin-right: 0;
     }
-
     .side-nav-menu ul {
         margin-top: 20%;
     }
-
     .broad-nav .side-nav-menu ul {
         position: relative;
         /*left: 30%;*/
         /*transform: translate(-30px, 0);*/
     }
-
     .broad-nav .side-nav-menu .social-icons {
         margin-left: 24.5%;
         margin-top: 0 !important;
     }
-
     .hover1 .title {
         font-size: 16px;
     }
-
     .hover1 .post {
         margin-left: 26px;
     }
-
     /*services*/
     .services-sec {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .services-sec .services-details .heading {
         padding-left: 0;
         padding-right: 0;
     }
-
     /*skill*/
     .skill-sec .skill-detail {
         /*padding-top: 30px;*/
         padding-bottom: 65px;
     }
-
     .skill-sec .skill-banner {
         padding-left: 0;
     }
-
     .skill-sec .skill-detail .sub-heading span {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
     }
-
     /*qoute*/
     .qoute-sec .qoute {
         font-size: 24px;
     }
-
     .qoute-sec i.fa-quote-left {
         font-size: 20px;
         top: -30px;
         left: 6%;
     }
-
     .qoute-sec i.fa-quote-right {
         font-size: 20px;
         right: 5%;
         bottom: -8%;
     }
-
     /*projects*/
     .project-sec .project-area .project-detail {
         position: relative;
@@ -2779,166 +2966,135 @@ a:hover i.fa-instagram {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .project-sec .project-area .project-detail .project-heading {
         color: black;
         font-size: 24px;
     }
-
     .project-sec .project-links {
         bottom: auto;
         left: 8%;
         top: 11%;
     }
-
     .project-sec .project-area .project-detail .project-sub-heading span {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
     }
-
     /*pricing cards*/
-
     .pricing-sec .price-cards {
         padding-left: 15%;
         padding-right: 15%;
     }
-
     .pricing-sec .pricing-details .pricing-heading {
         width: 100%;
     }
-
     #map {
         height: 400px;
     }
-
     .client-sec .client-container .client-detail .client-s-media {
         right: 33.5%;
     }
-
     .contact-us-sec .contact-details .contact-s-media {
         left: calc(50% - 31%)
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-fade {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-box {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-roll {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-in {
         animation: none;
     }
-
     .client-sec .client-container .client-detail {
         top: 67%;
     }
-
     .slider-sec {
         min-height: 250px;
         background: transparent;
     }
-
     .services-sec .our-services .service-card .image-holder {
         margin-bottom: 17px;
     }
-
     .text-onblue-bg {
         color: #cccccc !important;
     }
 }
 
+
 /*// Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     .side_nav {
         width: 40%;
         left: -32%;
     }
-
     .expand_nav {
         left: 0;
     }
-
     .body_wrapper {
         margin-left: 8%;
         width: 92%;
     }
-
     .shrink_body {
         margin-left: 40%;
         width: 60% !important;
     }
-
     .side-nav-menu ul li a {
         font-size: 14px;
     }
-
     header .slider-social {
         display: none !important;
     }
-
     /*services*/
     .services-sec {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .services-sec .services-details .heading {
         padding-left: 0;
         padding-right: 0;
     }
-
     .services-sec .our-services {
         padding-left: 20%;
         padding-right: 20%;
     }
-
     .services-sec .our-services .service-card {
         padding-left: 5%;
         padding-right: 5%;
     }
-
     /*skill*/
     .skill-sec .skill-detail {
         /*padding-top: 30px;*/
         padding-bottom: 65px;
     }
-
     .skill-sec .skill-banner {
         padding-left: 0;
     }
-
     .skill-sec .skill-detail .sub-heading span {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
     }
-
     /*qoute*/
     .qoute-sec .qoute {
         font-size: 24px;
     }
-
     .qoute-sec i.fa-quote-left {
         font-size: 20px;
         top: -30px;
         left: 6%;
     }
-
     .qoute-sec i.fa-quote-right {
         font-size: 20px;
         right: 11%;
         bottom: 25%;
     }
-
     /*projects*/
     .project-sec .project-area .project-detail {
         position: relative;
@@ -2946,141 +3102,118 @@ a:hover i.fa-instagram {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .project-sec .project-area .project-detail .project-heading {
         color: black;
         font-size: 24px;
     }
-
     .project-sec .project-links {
         /*bottom: auto;*/
         left: 8%;
         bottom: 55%;
     }
-
     .project-sec .project-area .project-detail .project-sub-heading span {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
     }
-
     /*pricing cards*/
-
     .pricing-sec .price-cards {
         padding-left: 23%;
         padding-right: 23%;
     }
-
     .pricing-sec .pricing-details .pricing-heading {
         width: 100%;
     }
-
     #map {
         height: 500px;
     }
-
     .project-sec .project-area .project-detail .project-text {
         color: #cccccc;
     }
-
     .client-sec .client-container .client-detail .client-s-media {
         left: calc(50% - 43%);
     }
-
     .contact-us-sec .contact-details .contact-s-media {
         left: calc(50% - 23%)
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-fade {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-box {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-roll {
         animation: none;
     }
-
     .project-sec .owl-item.active .project-area .project-detail .animate-in {
         animation: none;
     }
-
     .text-onblue-bg {
         color: #cccccc !important;
     }
 }
 
+
 /*// Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .side_nav {
         width: 35%;
         left: -29%;
     }
-
     .expand_nav {
         left: 0;
     }
-
     .body_wrapper {
         margin-left: 6%;
         width: 94%;
     }
-
     .shrink_body {
         margin-left: 35%;
         width: 65% !important;
     }
-
     /*service*/
     .services-sec .our-services .service-card {
         padding-left: 5%;
         padding-right: 5%;
     }
-
     /*qoute*/
     .qoute-sec i.fa-quote-left {
         left: 5%;
     }
-
     .qoute-sec i.fa-quote-right {
         right: 10%;
     }
-
     /*projects*/
     .project-sec .project-area .project-detail .project-heading {
         font-size: 22px;
         margin-bottom: 25px;
     }
-
     .project-sec .project-area .project-detail .project-sub-heading {
         font-size: 20px;
         margin-bottom: 25px;
     }
-
     .project-sec .project-area .project-detail .project-text {
         font-size: 14px;
         margin-bottom: 25px;
     }
-
     .project-sec .project-links {
         bottom: 2%;
     }
-
     .pricing-sec .pricing-card .pricing-amount i {
         left: 20%;
     }
 }
 
+
 /*// Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1367px) {
     .my_tog span {
         width: 30px;
         margin-right: 1%;
     }
-
     .project-sec .project-links {
         position: absolute;
         bottom: 9%;
@@ -3088,51 +3221,45 @@ a:hover i.fa-instagram {
         transform: translateY(-9%);
         z-index: 1111;
     }
-
     .project-sec .project-area .project-detail .project-text {
         margin-bottom: 50px;
     }
-
     .client-sec .client-container .client-img-overlay .client-text {
         font-size: 16px;
     }
-
     .project-sec .project-links a i {
         font-size: 33px;
     }
-
     .my_tog {
         margin-right: 3px;
     }
-
     .close_nav {
         margin-right: 25px;
     }
-
     .side-nav-menu .nav-menu li a,
     .broad .side-nav-menu ul li a {
         width: 73%;
     }
-
     .rites-res {
         margin-top: 90px;
         font-size: 15px;
     }
-
     .rites-res span.d-block {
         color: #f73859;
         margin-bottom: 3px;
     }
-
     .client-sec .client-container .client-detail .client-s-media {
         left: calc(50% - 46%);
     }
 }
 
 
-
 /*======================================== */
+
+
 /*=============broad nav fixed============ */
+
+
 /*======================================== */
 
 .fix-top {
@@ -3152,7 +3279,6 @@ a:hover i.fa-instagram {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -3166,7 +3292,6 @@ a:hover i.fa-instagram {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -3181,7 +3306,6 @@ a:hover i.fa-instagram {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: none;

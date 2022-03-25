@@ -1,0 +1,67 @@
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.datatime-content {
+    display: flex;
+    justify-content: center;
+}
+
+.datatime-content>div {
+    text-align: center;
+}
+
+input[type="text"] {
+    height: 45px;
+}
+
+.input-append .add-on,
+.input-prepend .add-on {
+    height: 45px;
+}
+
+.input-append .add-on:last-child,
+.input-append .btn:last-child,
+.input-append .btn-group:last-child>.dropdown-toggle {
+    border-radius: 0;
+}
+
+.input-append.date .add-on i,
+.input-prepend.date .add-on i {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-calendar {
+    background-position: -184px -110px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: #f73859;
+    width: 200px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.book-an-appointment-content {
+    margin-bottom: 30px;
+}

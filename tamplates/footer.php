@@ -44,17 +44,17 @@
 
 
       <!-- JavaScript -->
-      <script src="/vendor/js/bundle.min.js"></script>
-      <script src="/vendor/js/jquery.fancybox.min.js"></script>
-      <script src="/vendor/js/owl.carousel.min.js"></script>
-      <script src="/vendor/js/swiper.min.js"></script>
-      <script src="/vendor/js/parallaxie.min.js"></script>
-      <script src="/vendor/js/wow.min.js"></script>
+      <script src="vendor/js/bundle.min.js"></script>
+      <script src="vendor/js/jquery.fancybox.min.js"></script>
+      <script src="vendor/js/owl.carousel.min.js"></script>
+      <script src="vendor/js/swiper.min.js"></script>
+      <script src="vendor/js/parallaxie.min.js"></script>
+      <script src="vendor/js/wow.min.js"></script>
       <!-- custom script -->
-      <script src="/portfolio/js/fancybox.js"></script>
-      <script src="/portfolio/js/TweenMax.min.js"></script>
+      <script src="portfolio/js/fancybox.js"></script>
+      <script src="portfolio/js/TweenMax.min.js"></script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhrdEzlfpnsnfq4MgU1e1CCsrvVx2d59s"></script>
-      <script src="/portfolio/js/map.js"></script>
-      <script src="/vendor/js/mediaelement-and-player.min.js"></script>
-      <script src="/portfolio/js/script.js"></script>
-      <script src="/portfolio/js/karaKrisz.js"></script>
+      <script src="portfolio/js/map.js"></script>
+      <script src="vendor/js/mediaelement-and-player.min.js"></script>
+      <script src="portfolio/js/script.js"></script>
+      <script src="portfolio/js/karaKrisz.js"></script>

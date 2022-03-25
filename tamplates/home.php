@@ -12,10 +12,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/p1.png" alt="images">
+                                            <img src="/karaKrisz/img/logo_horizontal_purple_optimized.jpg" alt="images">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Williamson</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Rólunk</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -23,21 +23,9 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Prőbanyelvvizsgák.jpg" alt="images">
+                                            <img src="portfolio/img/nona/Palyavalasztas-Life-coaching.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-play"></i>
-                                                <h3 class="title">Crocodile</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="hover1">
-                                        <a class="info">
-                                            <img src="portfolio/img/nona/Pályaválasztás-Life-coaching.jpg" alt="image">
-                                            <div class="box-content">
-                                                <i class="lni-gallery"></i>
-                                                <h3 class="title">Pine Apple</h3>
+                                                <h3 class="title">Euroexam</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -50,10 +38,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/EuroExam.png" alt="image">
+                                            <img src="karaKrisz/img/tanar.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Study Tour</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Tanáraink/Lektoraink</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -61,10 +49,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Vizsgákra-jelentkezés.jpg" alt="image">
+                                            <img src="portfolio/img/nona/Vizsgakra-jelentkezes.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Academic</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Próbanyelvvizsgák</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -74,8 +62,8 @@
                                         <a class="info">
                                             <img src="portfolio/img/nona/Business-Coaching.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Learning</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Fordítási szolgáltatások</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -88,22 +76,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Firsteps-Suli-Buli.png" alt="image">
-                                            <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Laptop vision</h3>
-                                                <!--                                                <p>This is Description</p>-->
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="hover1">
-                                        <a class="info">
                                             <img src="portfolio/img/nona/Nyelvvizsga-tipusok.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Event vision</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Képzések/Foglalkozások</h3>
                                                 <!--                                                <p>This is Description</p>-->
                                             </div>
                                         </a>
@@ -112,10 +88,21 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Forditás.jpg" alt="image">
+                                            <img src="/karaKrisz/img/book.jpg" alt="images">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Williamson</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Könyvajánló/Rendelhető Könyvek</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="hover1">
+                                        <a class="info">
+                                            <img src="portfolio/img/nona/Forditas.jpg" alt="image">
+                                            <div class="box-content">
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Nyelvvizsga típusok</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -128,10 +115,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Képzések.jpg" alt="image">
+                                            <img src="portfolio/img/nona/Kepzesek.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Photography</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Vállalati képzések/Business Coaching</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -139,10 +126,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Online-bejelentkezés_1.jpg" alt="image">
+                                            <img src="portfolio/img/nona/Online-bejelentkezes_1.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">PineApple</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Online bejelentkezés</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -150,10 +137,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Galléria.jpg" alt="image">
+                                            <img src="portfolio/img/nona/Galleria.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Drawing</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Galléria</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -166,10 +153,10 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/Válallati-képzések.jpg" alt="image">
+                                            <img src="portfolio/img/nona/Valallati-kepzesek.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Sketches</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Események/Szórakozás idegennyelven</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -177,21 +164,22 @@
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
-                                            <img src="portfolio/img/nona/E-learning.jpg" alt="image">
+                                            <img src="karaKrisz/img/e-learning.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Planting</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">E-learning</h3>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
+
                                 <div class="col-12">
                                     <div class="hover1">
                                         <a class="info">
                                             <img src="portfolio/img/nona/Kapcsolat.jpg" alt="image">
                                             <div class="box-content">
-                                                <i class="lni-image"></i>
-                                                <h3 class="title">Season Tour</h3>
+                                                <!-- <i class="lni-image"></i> -->
+                                                <h3 class="title">Kapcsolat</h3>
                                             </div>
                                         </a>
                                     </div>
@@ -218,8 +206,15 @@
                                     rutrum, metus ut posuere gravida, tellus lacus faucibus lectus, sed cursused
                                     eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis
                                     malesuada ipsum.</p>
-                                <a class="btn our-btn rounded-pill" href="/calender/">LEARN
-                                    MORE</a>
+                                <?php if ($user["loggedIn"]): ?>
+                                <a target="_blank" class="btn our-btn rounded-pill" href="/timetable">időpont
+                                    foglalás</a>
+                                <?php else: ?>
+                                <?php if (!$user["loggedIn"]): ?>
+                                <button data-toggle="modal" data-target="#loginModal"
+                                    class="btn our-btn rounded-pill">időpont foglaláshoz be kell jelentkezned!</button>
+                                <?php endif?>
+                                <?php endif?>
                             </div>
                         </div>
                         <div class="row our-services">
@@ -294,7 +289,8 @@
                                             <li class="progress-item">
                                                 <h6>Coding</h6>
                                                 <div class="progress bar rounded-pill" data-width="79%">
-                                                    <div class="progress-bar rounded-pill bg-warning bar-inner" role="progressbar">
+                                                    <div class="progress-bar rounded-pill bg-warning bar-inner"
+                                                        role="progressbar">
                                                         <span>79%</span>
                                                     </div>
                                                 </div>
@@ -303,7 +299,8 @@
                                             <li class="progress-item">
                                                 <h6>Accuracy</h6>
                                                 <div class="progress bar rounded-pill" data-width="95%">
-                                                    <div class="progress-bar rounded-pill bg-warning bar-inner" role="progressbar">
+                                                    <div class="progress-bar rounded-pill bg-warning bar-inner"
+                                                        role="progressbar">
                                                         <span>95%</span>
                                                     </div>
                                                 </div>
@@ -312,7 +309,8 @@
                                             <li class="progress-item">
                                                 <h6>Planning</h6>
                                                 <div class="progress bar rounded-pill" data-width="87%">
-                                                    <div class="progress-bar rounded-pill bg-warning bar-inner" role="progressbar">
+                                                    <div class="progress-bar rounded-pill bg-warning bar-inner"
+                                                        role="progressbar">
                                                         <span>87%</span>
                                                     </div>
                                                 </div>
@@ -390,7 +388,8 @@
                                 </ul>
                                 <button class="btn pricing-btn rounded-pill">Learn More</button>
                             </div>
-                            <div class="pricing-card active col-12 col-lg-4 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                            <div class="pricing-card active col-12 col-lg-4 text-center wow fadeInUp"
+                                data-wow-duration="2s" data-wow-delay=".1s">
                                 <h4 class="pricing-card-heading">Standard</h4>
                                 <p class="pricing-card-text">Click edit button to change this text. Lorem
                                     dolor sit amet, consectetur adipiscing elit.</p>
@@ -563,5 +562,3 @@
 
     </div>
 </div>
-
-

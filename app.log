@@ -10,3 +10,6 @@
 [ERROR] Query error:Table 'traning.photo' doesn't exist
 [ERROR] Query error:Table 'traning.photo' doesn't exist
 [ERROR] Query error: Unknown column 'emai' in 'where clause'
+[ERROR] Query error: 
+[ERROR] Query error:Table 'nonalang_nonalang.admin_user' doesn't exist
+[ERROR] Query error:Unknown column 'teacher_email' in 'field list'

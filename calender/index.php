@@ -1,122 +1,70 @@
 <?php
-require_once 'core.php';
+// Include calendar helper functions
+include_once 'karaKriszFunctions.php';
+include_once 'functions.php';
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-    <title>Jquery Fullcalandar Integration with PHP and Mysql</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            var calendar = $('#calendar').fullCalendar({
-                editable: true,
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,agendaWeek,agendaDay'
-                },
-                events: 'load.php',
-                selectable: true,
-                selectHelper: true,
-                select: function(start, end, allDay) {
-                    var title = prompt("Enter Event Title");
-                    if (title) {
-                        var start = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
-                        var end = $.fullCalendar.formatDate(end, "Y-MM-DD HH:mm:ss");
-                        $.ajax({
-                            url: "core.php",
-                            type: "POST",
-                            data: {
-                                title: title,
-                                start: start,
-                                end: end
-                            },
-                            success: function() {
-                                calendar.fullCalendar('refetchEvents');
-                                alert("Added Successfully");
-                            }
-                        })
-                    }
-                },
-                editable: true,
-                eventResize: function(event) {
-                    var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
-                    var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");
-                    var title = event.title;
-                    var id = event.id;
-                    $.ajax({
-                        url: "core.php",
-                        type: "POST",
-                        data: {
-                            title: title,
-                            start: start,
-                            end: end,
-                            id: id
-                        },
-                        success: function() {
-                            calendar.fullCalendar('refetchEvents');
-                            alert('Event Update');
-                        }
-                    })
-                },
+	<title>Időpont foglalás</title>
+	<meta charset="utf-8">
 
-                eventDrop: function(event) {
-                    var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
-                    var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");
-                    var title = event.title;
-                    var id = event.id;
-                    $.ajax({
-                        url: "core.php",
-                        type: "POST",
-                        data: {
-                            title: title,
-                            start: start,
-                            end: end,
-                            id: id
-                        },
-                        success: function() {
-                            calendar.fullCalendar('refetchEvents');
-                            alert("Event Updated");
-                        }
-                    });
-                },
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css">
+	<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2708/bootstrap-datetimepicker.min.css">
 
-                eventClick: function(event) {
-                    if (confirm("Are you sure you want to remove it?")) {
-                        var id = event.id;
-                        $.ajax({
-                            url: "core.php",
-                            type: "POST",
-                            data: {
-                                id: id
-                            },
-                            success: function() {
-                                calendar.fullCalendar('refetchEvents');
-                                alert("Event Removed");
-                            }
-                        })
-                    }
-                },
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2708/bootstrap-datetimepicker.min.js"></script>
 
-            });
-        });
-    </script>
+	<!-- Stylesheet file -->
+	<link rel="stylesheet" href="css/karaKrisz.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/karaKrisz.js"></script>
+	<!-- jQuery library -->
+	<!-- <script src="js/jquery.min.js"></script> -->
+
 </head>
 
 <body>
-    <br />
-    <h2 align="center"><a href="#">Jquery Fullcalandar Integration with PHP and Mysql</a></h2>
-    <br />
-    <div class="container">
-        <div id="calendar"></div>
-    </div>
+	<div class="book-an-appointment-content text-center">
+		<a href="#myModal" role="button" class="btn" data-toggle="modal">időpont foglalás</a>
+	</div>
+	<!-- Display event calendar -->
+	<div id="calendar_div">
+		<?php echo getCalender(); ?>
+	</div>
+
+	<!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">Időpont rögzítése</h3> <br>
+			<p>A könnyebb rögzítés érdekében, <strong> kattints a naptár ikonra !</strong></p>
+		</div>
+		<div class="modal-body text-center mt-20">
+			<form method="POST" action="index.php">
+				<div class="datatime-content">
+					<div id="datetimepicker-start-time" class="input-append date pr-20">
+						<input name="start-time" id="start-time" data-format="yyyy-MM-dd hh:mm:ss" type="text"></input>
+						<span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar"></i></span>
+					</div>
+					<div id="datetimepicker-end-time" class="input-append date">
+						<input name="end-time" id="end-time" data-format="yyyy-MM-dd hh:mm:ss" type="text"></input>
+						<span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar"></i></span>
+					</div>
+				</div>
+				<input name="event" id="event" type="hidden" value="sendDateTime">
+				<button type="submit" class="btn mt-50">Elküldés</button>
+			</form>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Bezárás</button>
+		</div>
+	</div>
+
 </body>
 
 </html>

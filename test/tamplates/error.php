@@ -1,1 +1,0 @@
-tipikus hiba történt
